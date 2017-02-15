@@ -1,0 +1,442 @@
+.App {
+  text-align: center;
+}
+
+.accordionContainer {
+  text-align: left;
+  margin-left: 0.5em;
+}
+
+.logoIcon {
+  visibility: hidden;
+}
+
+.logoIconGeth {
+  position: absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  opacity: 0.3;
+  background-image: url("geth-mascot.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logoIconParity {
+  position: absolute;
+  left:-10px;
+  top:0;
+  width:110%;
+  height:100%;
+  opacity: 0.3;
+  background-image: url("parity-logo.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.pass {
+  background-color: green;
+}
+
+.fail {
+  background-color: red;
+}
+.passingSome {
+  background-color: hsl(20,78%,50%);
+}
+
+.testCell.pass {
+  background-color: #44ab44;
+}
+
+.itemPanel .testCell.fail {
+  background-color: transparent;
+}
+
+
+
+.header {
+  display: inline-block;
+  height: 50px;
+  vertical-align:middle;
+}
+
+.header.columnHeader {
+  /* margin-left: 5px; */
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  width: 4em;
+  display:inline-flex;
+  align-items:center;
+  text-align:center;
+  background-color: lightGray;
+  position: relative;
+  /* font-size:0.5em; */
+  word-break:break-all;
+}
+
+.header.columnHeader .clientColSpan {
+  font-size:0.8em;
+}
+
+.titleHeader {
+  text-align: center;
+  background-color: lightGray;
+  display:inline-flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.headerText {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.headerSubtext {
+  font-size: 0.9em;
+}
+
+.testItemText {
+  font-size: 0.8em;
+  padding-left: 10px;
+  color: black;
+}
+
+
+.header.titleColumn {
+  width: 27.5em;
+}
+
+
+.testGroupName.titleColumn {
+  /* width:50%; */
+  width: 27.5em;
+}
+
+.titleColumn {
+  /* width:50%; */
+  width: 33.5em;
+}
+
+
+.testGroupRow {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  display: inline-block;
+  width: 42em;
+}
+
+.accordionContainer > .rc-collapse {
+  width: 42em;
+}
+
+
+
+.testGroupName {
+  /* display:inline-block; */
+  background-color: lightGray;
+  display:inline-flex;
+  justify-content:flex-start;
+  align-items: center;
+  vertical-align: middle;
+}
+
+
+.expandArrow {
+  margin-left:auto;
+  height: 2em;
+  height: 100%;
+}
+
+.groupExpandIndicator {
+  font-size: 0.8em;
+  font-weight: normal;
+  width: 2em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+
+
+
+.testGroupHeader {
+  margin-bottom: 2px;
+  /* display: inline-block; */
+  /* width: 80%; */
+  /*
+  padding-left: 3em;
+  padding-right: 3em;
+  */
+  color: black;
+}
+
+.titleCell {
+  /* display:inline-block; */
+  width: 3em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  /* width: 8%; */
+  /* align-self: flex-end; */
+  display:inline-flex;
+  /* float: right; */
+  justify-content:center;
+  /* align-items: center; */
+  height: inherit;
+}
+
+.testName {
+  display:inline-flex;
+  background-color: #eee;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.testNameTitle {
+
+}
+
+.testItem .titleCell {
+  margin-left:0px;
+}
+
+.testItem {
+  margin-bottom: 2px;
+  /* position: relative; */
+  display: flex;
+  /* align-items: center; */
+  /* justify-content:center; */
+  /* width: 95%; */
+}
+
+
+
+.rc-collapse-content-box {
+  display: inline-block;
+}
+
+.rc-collapse-content {
+  display: inline-block;
+}
+
+div.rc-collapse.subCollapse {
+  /* margin-top: 3px;
+  margin-bottom: 3px;
+  */
+  margin-right: 3px;
+  width: 4em;
+  border-right: 3px solid white;
+  border-left: 0px solid white;
+  border-top: none;
+  border-bottom: none;
+  display: inline-flex;
+  justify-content:center;
+  align-items: center;
+}
+
+
+.rc-collapse-header .testItem .titleColumn {
+  line-height: normal;
+}
+
+
+div.rc-collapse.subCollapse {
+  display: inline-block;
+}
+
+.rc-collapse-header {
+  display: inline-flex;
+}
+.rc-collapse-item {
+  display: inline-block;
+}
+
+
+div.rc-collapse.subCollapse > .itemPanel > .rc-collapse-header {
+   height: 2em;
+   /* line-height: 2em; */
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   /* vertical-align: top; */
+}
+
+.itemPanel .testCell > .button {
+  height: 2em;
+}
+
+div.rc-collapse > .rc-collapse-item > .rc-collapse-header .testGroupHeader {
+   text-indent: 0;
+}
+
+
+div.rc-collapse.subCollapse > .rc-collapse-item.rc-collapse-item-active {
+  background-color: white;
+  position: absolute;
+  /* left: 5em; */
+}
+
+div.rc-collapse.subCollapse > .rc-collapse-item .rc-collapse-header {
+  width:4em;
+  border: none;
+}
+
+div.rc-collapse.subCollapse > .rc-collapse-item.itemPanel {
+  border: none;
+  width: 4em;
+}
+
+
+
+div.rc-collapse.subCollapse > .rc-collapse-item {
+  background-color: white;
+  /* border:1px dotted green; */
+  position: relative;
+}
+
+div.rc-collapse.subCollapse > .rc-collapse-item > .rc-collapse-header {
+  position: relative;
+  left: 0;
+  top: 0;
+  /* z-index: -1; */
+}
+
+div.rc-collapse.subCollapse > .rc-collapse-item-active > .rc-collapse-header {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+div.rc-collapse.subCollapse .rc-collapse-content {
+  position: absolute;
+  border: 2.5px solid purple;
+  border-radius: 5px;
+  left: -15em;
+  top: 3em;
+  z-index: 100000;
+}
+
+div.rc-collapse.subCollapse .rc-collapse-content-box {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+div.rc-collapse.subCollapse .rc-collapse-content-inactive {
+  display: none;
+}
+
+
+div.rc-collapse-item.testGroupRow .rc-collapse-content-inactive {
+  display: none;
+}
+
+
+
+
+
+
+div.rc-collapse-item-active .groupExpandIndicator {
+  transform: rotate(90deg);
+}
+
+.detailsContainer {
+  max-height: 300px;
+  overflow: scroll;
+  /* width: 50%; */
+  max-width: 35em;
+  padding: 0.5em;
+  /* border: 1px solid black; */
+  background: rgba(225, 0, 0, .1);
+}
+
+
+.accordionContainer .rc-collapse {
+   display: inline-flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+}
+
+
+
+.testItem {
+  text-indent: 0;
+  height: 2em;
+}
+
+
+.testCell {
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  width: 4em;
+  display:inline-flex;
+  justify-content:center;
+  align-items: center;
+  /* height: inherit; */
+  vertical-align: top;
+  color: black;
+}
+
+
+.testItem > .testCell > .button {
+  height: 2em;
+}
+
+div.rc-collapse-item.testGroupRow > div.rc-collapse-header {
+  text-indent: 0;
+}
+
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 80px;
+}
+
+.App-header {
+  background-color: #EBEBEB;
+  /* height: 100px; */
+  padding: 20px;
+  color: black;
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
+  /* margin-right:1em; */
+  max-height: 5em;
+}
+
+.App-header .headerLogo {
+  display:inline-flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.testMetaInfo {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: left; */
+  /* overflow: scroll; */
+}
+
+
+.testTimeInfo {
+  font-size: 0.7em;
+}
+
+
+.App-header h2 {
+  /* display:inline; */
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
