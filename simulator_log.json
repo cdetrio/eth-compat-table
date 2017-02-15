@@ -1,0 +1,2715 @@
+{
+  "validations": {
+    "go-ethereum:master": {},
+    "go-ethereum:storage-at": {},
+    "parity:master": {}
+  },
+  "simulations": {
+    "go-ethereum:master": {
+      "ethereum/rpeecee": {
+        "start": "2017-02-15T21:00:50.887475905Z",
+        "end": "2017-02-15T21:01:28.757155759Z",
+        "success": false,
+        "subresults": [
+          {
+            "name": "eth_getTransactionByHash get tx hash rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash get tx hash. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash get tx hash. response has tx hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash get tx hash. tx hashes should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash get tx hash. blockNumber should be 2.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash nonexistent tx rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash nonexistent tx. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash nonexistent tx. response should be null.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions. transactions should be hashes.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions. transactions should be objects.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with one parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\") rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\"). rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\"). response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\"). headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\"). block number should be zero.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block. block number should be 32.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions. transactions should be hashes.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions. transactions should be objects.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with one parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex uncle at index 0 rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex uncle at index 0. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex uncle at index 0. response has hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex uncle at index 0. hashes should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with one parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block with two uncles rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block with two uncles. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block with two uncles. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block with two uncles. uncle count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block that doesn't exist rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block that doesn't exist. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block that doesn't exist. response should be null.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block that doesn't exist. response should not be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber no parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber no parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber no parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber no parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber for block with one tx rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber for block with one tx. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber for block with one tx. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber for block with one tx. transaction count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"earliest\" rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"earliest\". rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"earliest\". response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"earliest\". transaction count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"latest\" rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"latest\". rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"latest\". response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"latest\". transaction count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block with two uncles rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block with two uncles. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block with two uncles. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block with two uncles. uncle count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block that doesn't exist rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block that doesn't exist. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block that doesn't exist. response should be null.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block that doesn't exist. response should not be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash no parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash no parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash no parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash no parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt experimental method rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt experimental method. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt experimental method. response is not empty.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.result != null",
+            "details": {
+              "receivedResponse": {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "error": {
+                  "message": "The method debug_storageRangeAt does not exist/is not available",
+                  "code": -32601
+                }
+              },
+              "assertion_program": ".receivedResponse.result != null",
+              "expectedResponse": {
+                "result": {
+                  "storage": [
+                    {
+                      "hashedKey": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                      "value": "0x000000000000000000000000000000000000000000000000000000008308fa01"
+                    },
+                    {
+                      "hashedKey": "0xb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                      "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0x405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                      "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0xc2575a0e9e593c00f959f8c92f12db2869c3395a3b0502d05e2516446f71f85b",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000003",
+                      "value": "0xaabbccffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0x8a35acfbc15ff81a39ae7d344fd709f28e8600b4aa8c65c6b64bfe7fe36bd19b",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000004",
+                      "value": "0xaabbccffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    }
+                  ],
+                  "complete": true
+                }
+              },
+              "requestObject": {
+                "params": [
+                  "0x71d59849ddd98543bdfbe8548f5eed559b07b8aaf196369f39134500eab68e53",
+                  0,
+                  "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f",
+                  "0x",
+                  "0x2b",
+                  8
+                ],
+                "method": "debug_storageRangeAt"
+              }
+            }
+          },
+          {
+            "name": "debug_storageRangeAt experimental method. key 0x00 should be first result in the array.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.result.storage[0].key == .expectedResponse.result.storage[0].key",
+            "details": {
+              "receivedResponse": {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "error": {
+                  "message": "The method debug_storageRangeAt does not exist/is not available",
+                  "code": -32601
+                }
+              },
+              "assertion_program": ".receivedResponse.result.storage[0].key == .expectedResponse.result.storage[0].key",
+              "expectedResponse": {
+                "result": {
+                  "storage": [
+                    {
+                      "hashedKey": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                      "value": "0x000000000000000000000000000000000000000000000000000000008308fa01"
+                    },
+                    {
+                      "hashedKey": "0xb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                      "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0x405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                      "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0xc2575a0e9e593c00f959f8c92f12db2869c3395a3b0502d05e2516446f71f85b",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000003",
+                      "value": "0xaabbccffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0x8a35acfbc15ff81a39ae7d344fd709f28e8600b4aa8c65c6b64bfe7fe36bd19b",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000004",
+                      "value": "0xaabbccffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    }
+                  ],
+                  "complete": true
+                }
+              },
+              "requestObject": {
+                "params": [
+                  "0x71d59849ddd98543bdfbe8548f5eed559b07b8aaf196369f39134500eab68e53",
+                  0,
+                  "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f",
+                  "0x",
+                  "0x2b",
+                  8
+                ],
+                "method": "debug_storageRangeAt"
+              }
+            }
+          },
+          {
+            "name": "debug_storageRangeAt experimental method. storage values at 0x00 should be equal.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.result.storage[0].value == .expectedResponse.result.storage[0].value",
+            "details": {
+              "receivedResponse": {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "error": {
+                  "message": "The method debug_storageRangeAt does not exist/is not available",
+                  "code": -32601
+                }
+              },
+              "assertion_program": ".receivedResponse.result.storage[0].value == .expectedResponse.result.storage[0].value",
+              "expectedResponse": {
+                "result": {
+                  "storage": [
+                    {
+                      "hashedKey": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                      "value": "0x000000000000000000000000000000000000000000000000000000008308fa01"
+                    },
+                    {
+                      "hashedKey": "0xb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                      "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0x405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                      "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0xc2575a0e9e593c00f959f8c92f12db2869c3395a3b0502d05e2516446f71f85b",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000003",
+                      "value": "0xaabbccffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0x8a35acfbc15ff81a39ae7d344fd709f28e8600b4aa8c65c6b64bfe7fe36bd19b",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000004",
+                      "value": "0xaabbccffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    }
+                  ],
+                  "complete": true
+                }
+              },
+              "requestObject": {
+                "params": [
+                  "0x71d59849ddd98543bdfbe8548f5eed559b07b8aaf196369f39134500eab68e53",
+                  0,
+                  "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f",
+                  "0x",
+                  "0x2b",
+                  8
+                ],
+                "method": "debug_storageRangeAt"
+              }
+            }
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist. response should have error code -32000.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.error.code == .expectedResponse.error.code",
+            "details": {
+              "receivedResponse": {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "error": {
+                  "message": "The method debug_storageRangeAt does not exist/is not available",
+                  "code": -32601
+                }
+              },
+              "assertion_program": ".receivedResponse.error.code == .expectedResponse.error.code",
+              "expectedResponse": {
+                "error": {
+                  "message": "block 878a132155f53adb7c993ded4cfb687977397d63d873fcdbeb06c18cac907a5c not found",
+                  "code": -32000
+                }
+              },
+              "requestObject": {
+                "params": [
+                  "0x878a132155f53adb7c993ded4cfb687977397d63d873fcdbeb06c18cac907a5c",
+                  0,
+                  "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f",
+                  "0x",
+                  "0x2b",
+                  8
+                ],
+                "method": "debug_storageRangeAt"
+              }
+            }
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist. response should have error message block not found.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.error.message == .expectedResponse.error.message",
+            "details": {
+              "receivedResponse": {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "error": {
+                  "message": "The method debug_storageRangeAt does not exist/is not available",
+                  "code": -32601
+                }
+              },
+              "assertion_program": ".receivedResponse.error.message == .expectedResponse.error.message",
+              "expectedResponse": {
+                "error": {
+                  "message": "block 878a132155f53adb7c993ded4cfb687977397d63d873fcdbeb06c18cac907a5c not found",
+                  "code": -32000
+                }
+              },
+              "requestObject": {
+                "params": [
+                  "0x878a132155f53adb7c993ded4cfb687977397d63d873fcdbeb06c18cac907a5c",
+                  0,
+                  "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f",
+                  "0x",
+                  "0x2b",
+                  8
+                ],
+                "method": "debug_storageRangeAt"
+              }
+            }
+          },
+          {
+            "name": "debug_storageRangeAt no parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt no parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt no parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt no parameter. error code should be -32602.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.error.code == .expectedResponse.error.code",
+            "details": {
+              "receivedResponse": {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "error": {
+                  "message": "The method debug_storageRangeAt does not exist/is not available",
+                  "code": -32601
+                }
+              },
+              "assertion_program": ".receivedResponse.error.code == .expectedResponse.error.code",
+              "expectedResponse": {
+                "error": {
+                  "message": "missing value for required argument 0",
+                  "code": -32602
+                }
+              },
+              "requestObject": {
+                "shouldFailSchema": true,
+                "params": [],
+                "method": "debug_storageRangeAt"
+              }
+            }
+          },
+          {
+            "name": "eth_sign message 0xdeadbeef rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_sign message 0xdeadbeef. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_sign message 0xdeadbeef. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_sign message 0xdeadbeef. signed message should be length 132.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_sign with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_sign with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with one parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByHash for block with one tx rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByHash for block with one tx. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByHash for block with one tx. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByHash for block with one tx. transaction count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex uncle at index 0 rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex uncle at index 0. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex uncle at index 0. response has hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex uncle at index 0. hashes should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with one parameter. error code should be -32602.",
+            "success": true
+          }
+        ]
+      }
+    },
+    "go-ethereum:storage-at": {
+      "ethereum/rpeecee": {
+        "start": "2017-02-15T21:01:28.757451771Z",
+        "end": "2017-02-15T21:02:06.969713739Z",
+        "success": true,
+        "subresults": [
+          {
+            "name": "eth_getTransactionByHash get tx hash rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash get tx hash. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash get tx hash. response has tx hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash get tx hash. tx hashes should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash get tx hash. blockNumber should be 2.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash nonexistent tx rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash nonexistent tx. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash nonexistent tx. response should be null.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions. transactions should be hashes.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions. transactions should be objects.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with one parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\") rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\"). rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\"). response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\"). headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\"). block number should be zero.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block. block number should be 32.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions. transactions should be hashes.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions. transactions should be objects.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with one parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex uncle at index 0 rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex uncle at index 0. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex uncle at index 0. response has hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex uncle at index 0. hashes should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with one parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block with two uncles rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block with two uncles. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block with two uncles. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block with two uncles. uncle count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block that doesn't exist rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block that doesn't exist. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block that doesn't exist. response should be null.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block that doesn't exist. response should not be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber no parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber no parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber no parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber no parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber for block with one tx rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber for block with one tx. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber for block with one tx. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber for block with one tx. transaction count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"earliest\" rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"earliest\". rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"earliest\". response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"earliest\". transaction count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"latest\" rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"latest\". rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"latest\". response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"latest\". transaction count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block with two uncles rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block with two uncles. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block with two uncles. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block with two uncles. uncle count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block that doesn't exist rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block that doesn't exist. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block that doesn't exist. response should be null.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block that doesn't exist. response should not be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash no parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash no parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash no parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash no parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt experimental method rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt experimental method. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt experimental method. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt experimental method. key 0x00 should be first result in the array.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt experimental method. storage values at 0x00 should be equal.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist. response should have error code -32000.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist. response should have error message block not found.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt no parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt no parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt no parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt no parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_sign message 0xdeadbeef rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_sign message 0xdeadbeef. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_sign message 0xdeadbeef. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_sign message 0xdeadbeef. signed message should be length 132.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_sign with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_sign with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with one parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByHash for block with one tx rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByHash for block with one tx. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByHash for block with one tx. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByHash for block with one tx. transaction count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex uncle at index 0 rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex uncle at index 0. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex uncle at index 0. response has hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex uncle at index 0. hashes should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with one parameter. error code should be -32602.",
+            "success": true
+          }
+        ]
+      }
+    },
+    "parity:master": {
+      "ethereum/rpeecee": {
+        "start": "2017-02-15T21:02:06.969898447Z",
+        "end": "2017-02-15T21:02:44.029682056Z",
+        "success": false,
+        "subresults": [
+          {
+            "name": "eth_getTransactionByHash get tx hash rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash get tx hash. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash get tx hash. response has tx hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash get tx hash. tx hashes should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash get tx hash. blockNumber should be 2.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash nonexistent tx rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash nonexistent tx. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getTransactionByHash nonexistent tx. response should be null.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber without full transactions. transactions should be hashes.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with full transactions. transactions should be objects.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber with one parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\") rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\"). rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\"). response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\"). headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get genesis block (\"earliest\"). block number should be zero.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByNumber get latest block. block number should be 32.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash without full transactions. transactions should be hashes.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions. response has blockHeader hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions. headers should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with full transactions. transactions should be objects.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockByHash with one parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex uncle at index 0 rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex uncle at index 0. rpc received response schema valid",
+            "success": false,
+            "error": "ERROR. couldn't validate rpc received response against schema.",
+            "details": {
+              "received_response": {
+                "jsonrpc": "2.0",
+                "result": {
+                  "transactionsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+                  "gasLimit": "0x2fefd8",
+                  "number": "0x2",
+                  "size": null,
+                  "author": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                  "mixHash": "0xe970d9815a634e25a778a765764d91ecc80d667a85721dcd4297d00be8d2af29",
+                  "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                  "miner": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                  "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                  "nonce": "0x64050e6ee4c2f3c7",
+                  "hash": "0x9fbaff6f69e4f47a09fb30a14baadf2435bd1ad1f1940e7e985de0b3acff4e0a",
+                  "uncles": [],
+                  "transactions": [],
+                  "timestamp": "0x561bc2e7",
+                  "sealFields": [
+                    "0xa0e970d9815a634e25a778a765764d91ecc80d667a85721dcd4297d00be8d2af29",
+                    "0x8864050e6ee4c2f3c7"
+                  ],
+                  "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+                  "difficulty": "0x20040",
+                  "parentHash": "0x10aaf14a53caf27552325374429d3558398a36d3682ede6603c2c6511896e9f9",
+                  "extraData": "0x",
+                  "stateRoot": "0xee57559895449b8dbd0a096b2999cf97b517b645ec8db33c7f5934778672263e",
+                  "totalDifficulty": "0x60040",
+                  "gasUsed": "0x0"
+                },
+                "id": 1
+              },
+              "schemaException": "None is not of type u'string'\n\nFailed validating u'type' in schema[u'allOf'][1][u'properties'][u'result'][u'properties'][u'size']:\n    {u'description': u'QUANTITY - integer the size of this block in bytes.',\n     u'type': u'string'}\n\nOn instance[u'result'][u'size']:\n    None",
+              "response_schema": {
+                "definitions": {
+                  "response-obj": {
+                    "id": "#response-obj",
+                    "properties": {
+                      "result": {
+                        "type": "object",
+                        "properties": {
+                          "nonce": {
+                            "type": "string",
+                            "description": "DATA, 8 Bytes - hash of the generated proof-of-work. null when its pending block."
+                          },
+                          "receiptsRoot": {
+                            "type": "string",
+                            "description": "DATA, 32 Bytes - the root of the receipts trie of the block."
+                          },
+                          "hash": {
+                            "type": "string",
+                            "description": "DATA, 32 Bytes - hash of the block. null when its pending block."
+                          },
+                          "uncles": {
+                            "items": {},
+                            "type": "array",
+                            "description": "Array - Array of uncle hashes."
+                          },
+                          "timestamp": {
+                            "type": "string",
+                            "description": "QUANTITY - the unix timestamp for when the block was collated."
+                          },
+                          "sha3Uncles": {
+                            "type": "string",
+                            "description": "DATA, 32 Bytes - SHA3 of the uncles data in the block."
+                          },
+                          "miner": {
+                            "type": "string",
+                            "description": "DATA, 20 Bytes - the address of the beneficiary to whom the mining rewards were given."
+                          },
+                          "parentHash": {
+                            "type": "string",
+                            "description": "DATA, 32 Bytes - hash of the parent block."
+                          },
+                          "extraData": {
+                            "type": "string",
+                            "description": "DATA - the \"extra data\" field of this block."
+                          },
+                          "gasLimit": {
+                            "type": "string",
+                            "description": "QUANTITY - the maximum gas allowed in this block."
+                          },
+                          "number": {
+                            "type": "string",
+                            "description": "QUANTITY - the block number. null when its pending block."
+                          },
+                          "stateRoot": {
+                            "type": "string",
+                            "description": "DATA, 32 Bytes - the root of the final state trie of the block."
+                          },
+                          "difficulty": {
+                            "type": "string",
+                            "description": "QUANTITY - integer of the difficulty for this block."
+                          },
+                          "transactionsRoot": {
+                            "type": "string",
+                            "description": "DATA, 32 Bytes - the root of the transaction trie of the block."
+                          },
+                          "size": {
+                            "type": "string",
+                            "description": "QUANTITY - integer the size of this block in bytes."
+                          },
+                          "mixHash": {
+                            "type": "string"
+                          },
+                          "totalDifficulty": {
+                            "type": "null",
+                            "description": "Uncles don't have total difficulty."
+                          },
+                          "gasUsed": {
+                            "type": "string",
+                            "description": "QUANTITY - the total used gas by all transactions in this block."
+                          },
+                          "logsBloom": {
+                            "type": "string",
+                            "description": "DATA, 256 Bytes - the bloom filter for the logs of the block. null when its pending block."
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "id": "#response",
+                "allOf": [
+                  {
+                    "$ref": "jsonrpc-response.json"
+                  },
+                  {
+                    "$ref": "#/definitions/response-obj"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex uncle at index 0. response has hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex uncle at index 0. hashes should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockNumberAndIndex with one parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block with two uncles rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block with two uncles. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block with two uncles. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block with two uncles. uncle count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block that doesn't exist rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block that doesn't exist. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block that doesn't exist. response should be null.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber for block that doesn't exist. response should not be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber no parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber no parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber no parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockNumber no parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber for block with one tx rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber for block with one tx. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber for block with one tx. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber for block with one tx. transaction count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"earliest\" rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"earliest\". rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"earliest\". response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"earliest\". transaction count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"latest\" rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"latest\". rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"latest\". response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber \"latest\". transaction count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByNumber with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block with two uncles rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block with two uncles. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block with two uncles. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block with two uncles. uncle count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block that doesn't exist rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block that doesn't exist. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block that doesn't exist. response should be null.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash for block that doesn't exist. response should not be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash no parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash no parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash no parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleCountByBlockHash no parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt experimental method rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt experimental method. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt experimental method. response is not empty.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.result != null",
+            "details": {
+              "receivedResponse": {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "error": {
+                  "message": "Method not found",
+                  "code": -32601,
+                  "data": null
+                }
+              },
+              "assertion_program": ".receivedResponse.result != null",
+              "expectedResponse": {
+                "result": {
+                  "storage": [
+                    {
+                      "hashedKey": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                      "value": "0x000000000000000000000000000000000000000000000000000000008308fa01"
+                    },
+                    {
+                      "hashedKey": "0xb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                      "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0x405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                      "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0xc2575a0e9e593c00f959f8c92f12db2869c3395a3b0502d05e2516446f71f85b",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000003",
+                      "value": "0xaabbccffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0x8a35acfbc15ff81a39ae7d344fd709f28e8600b4aa8c65c6b64bfe7fe36bd19b",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000004",
+                      "value": "0xaabbccffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    }
+                  ],
+                  "complete": true
+                }
+              },
+              "requestObject": {
+                "params": [
+                  "0x71d59849ddd98543bdfbe8548f5eed559b07b8aaf196369f39134500eab68e53",
+                  0,
+                  "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f",
+                  "0x",
+                  "0x2b",
+                  8
+                ],
+                "method": "debug_storageRangeAt"
+              }
+            }
+          },
+          {
+            "name": "debug_storageRangeAt experimental method. key 0x00 should be first result in the array.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.result.storage[0].key == .expectedResponse.result.storage[0].key",
+            "details": {
+              "receivedResponse": {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "error": {
+                  "message": "Method not found",
+                  "code": -32601,
+                  "data": null
+                }
+              },
+              "assertion_program": ".receivedResponse.result.storage[0].key == .expectedResponse.result.storage[0].key",
+              "expectedResponse": {
+                "result": {
+                  "storage": [
+                    {
+                      "hashedKey": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                      "value": "0x000000000000000000000000000000000000000000000000000000008308fa01"
+                    },
+                    {
+                      "hashedKey": "0xb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                      "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0x405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                      "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0xc2575a0e9e593c00f959f8c92f12db2869c3395a3b0502d05e2516446f71f85b",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000003",
+                      "value": "0xaabbccffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0x8a35acfbc15ff81a39ae7d344fd709f28e8600b4aa8c65c6b64bfe7fe36bd19b",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000004",
+                      "value": "0xaabbccffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    }
+                  ],
+                  "complete": true
+                }
+              },
+              "requestObject": {
+                "params": [
+                  "0x71d59849ddd98543bdfbe8548f5eed559b07b8aaf196369f39134500eab68e53",
+                  0,
+                  "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f",
+                  "0x",
+                  "0x2b",
+                  8
+                ],
+                "method": "debug_storageRangeAt"
+              }
+            }
+          },
+          {
+            "name": "debug_storageRangeAt experimental method. storage values at 0x00 should be equal.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.result.storage[0].value == .expectedResponse.result.storage[0].value",
+            "details": {
+              "receivedResponse": {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "error": {
+                  "message": "Method not found",
+                  "code": -32601,
+                  "data": null
+                }
+              },
+              "assertion_program": ".receivedResponse.result.storage[0].value == .expectedResponse.result.storage[0].value",
+              "expectedResponse": {
+                "result": {
+                  "storage": [
+                    {
+                      "hashedKey": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                      "value": "0x000000000000000000000000000000000000000000000000000000008308fa01"
+                    },
+                    {
+                      "hashedKey": "0xb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                      "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0x405787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                      "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0xc2575a0e9e593c00f959f8c92f12db2869c3395a3b0502d05e2516446f71f85b",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000003",
+                      "value": "0xaabbccffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    },
+                    {
+                      "hashedKey": "0x8a35acfbc15ff81a39ae7d344fd709f28e8600b4aa8c65c6b64bfe7fe36bd19b",
+                      "key": "0x0000000000000000000000000000000000000000000000000000000000000004",
+                      "value": "0xaabbccffffffffffffffffffffffffffffffffffffffffffffffffffffffffee"
+                    }
+                  ],
+                  "complete": true
+                }
+              },
+              "requestObject": {
+                "params": [
+                  "0x71d59849ddd98543bdfbe8548f5eed559b07b8aaf196369f39134500eab68e53",
+                  0,
+                  "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f",
+                  "0x",
+                  "0x2b",
+                  8
+                ],
+                "method": "debug_storageRangeAt"
+              }
+            }
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist. response should have error code -32000.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.error.code == .expectedResponse.error.code",
+            "details": {
+              "receivedResponse": {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "error": {
+                  "message": "Method not found",
+                  "code": -32601,
+                  "data": null
+                }
+              },
+              "assertion_program": ".receivedResponse.error.code == .expectedResponse.error.code",
+              "expectedResponse": {
+                "error": {
+                  "message": "block 878a132155f53adb7c993ded4cfb687977397d63d873fcdbeb06c18cac907a5c not found",
+                  "code": -32000
+                }
+              },
+              "requestObject": {
+                "params": [
+                  "0x878a132155f53adb7c993ded4cfb687977397d63d873fcdbeb06c18cac907a5c",
+                  0,
+                  "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f",
+                  "0x",
+                  "0x2b",
+                  8
+                ],
+                "method": "debug_storageRangeAt"
+              }
+            }
+          },
+          {
+            "name": "debug_storageRangeAt for block that doesn't exist. response should have error message block not found.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.error.message == .expectedResponse.error.message",
+            "details": {
+              "receivedResponse": {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "error": {
+                  "message": "Method not found",
+                  "code": -32601,
+                  "data": null
+                }
+              },
+              "assertion_program": ".receivedResponse.error.message == .expectedResponse.error.message",
+              "expectedResponse": {
+                "error": {
+                  "message": "block 878a132155f53adb7c993ded4cfb687977397d63d873fcdbeb06c18cac907a5c not found",
+                  "code": -32000
+                }
+              },
+              "requestObject": {
+                "params": [
+                  "0x878a132155f53adb7c993ded4cfb687977397d63d873fcdbeb06c18cac907a5c",
+                  0,
+                  "0x6295ee1b4f6dd65047762f924ecd367c17eabf8f",
+                  "0x",
+                  "0x2b",
+                  8
+                ],
+                "method": "debug_storageRangeAt"
+              }
+            }
+          },
+          {
+            "name": "debug_storageRangeAt no parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt no parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt no parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "debug_storageRangeAt no parameter. error code should be -32602.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.error.code == .expectedResponse.error.code",
+            "details": {
+              "receivedResponse": {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "error": {
+                  "message": "Method not found",
+                  "code": -32601,
+                  "data": null
+                }
+              },
+              "assertion_program": ".receivedResponse.error.code == .expectedResponse.error.code",
+              "expectedResponse": {
+                "error": {
+                  "message": "missing value for required argument 0",
+                  "code": -32602
+                }
+              },
+              "requestObject": {
+                "shouldFailSchema": true,
+                "params": [],
+                "method": "debug_storageRangeAt"
+              }
+            }
+          },
+          {
+            "name": "eth_sign message 0xdeadbeef",
+            "success": false,
+            "error": "ERROR. json-rpc request failed: HTTPConnectionPool(host='172.17.0.3', port=8545): Read timed out. (read timeout=10)",
+            "details": {
+              "rpc_request": {
+                "params": [
+                  "0x4898dd2725b0835bf972d9d6c8b65c59de7b3daf",
+                  "0xdeadbeef"
+                ],
+                "method": "eth_sign"
+              },
+              "response_schema": {
+                "definitions": {
+                  "response-obj": {
+                    "id": "#response-obj",
+                    "properties": {
+                      "result": {
+                        "type": "string",
+                        "description": "DATA: Signature."
+                      }
+                    }
+                  }
+                },
+                "id": "#response",
+                "allOf": [
+                  {
+                    "$ref": "jsonrpc-response.json"
+                  },
+                  {
+                    "$ref": "#/definitions/response-obj"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "eth_sign message 0xdeadbeef. rpc received response schema valid",
+            "success": false,
+            "error": "ERROR. couldn't validate rpc received response against schema.",
+            "details": {
+              "received_response": {},
+              "schemaException": "{} is not valid under any of the given schemas\n\nFailed validating u'oneOf' in schema[u'allOf'][0]:\n    {u'$schema': u'http://json-schema.org/draft-04/schema#',\n     u'definitions': {u'common': {u'not': {u'description': u'cannot have result and error at the same time',\n                                           u'required': [u'result',\n                                                         u'error']},\n                                  u'properties': {u'id': {u'note': [u'spec says a number which should not contain a fractional part',\n                                                                    u'We choose integer here, but this is unenforceable with some languages'],\n                                                          u'type': [u'string',\n                                                                    u'integer',\n                                                                    u'null']},\n                                                  u'jsonrpc': {u'enum': [u'2.0']}},\n                                  u'required': [u'id', u'jsonrpc'],\n                                  u'type': u'object'},\n                      u'error': {u'allOf': [{u'$ref': u'#/definitions/common'},\n                                            {u'properties': {u'error': {u'properties': {u'code': {u'note': [u'unenforceable in some languages'],\n                                                                                                  u'type': u'integer'},\n                                                                                        u'data': {u'description': u'optional, can be anything'},\n                                                                                        u'message': {u'type': u'string'}},\n                                                                        u'required': [u'code',\n                                                                                      u'message'],\n                                                                        u'type': u'object'}},\n                                             u'required': [u'error']}]},\n                      u'success': {u'allOf': [{u'$ref': u'#/definitions/common'},\n                                              {u'required': [u'result']}],\n                                   u'description': u'A success. The result member is then required and can be anything.'}},\n     u'description': u'A JSON RPC 2.0 response',\n     u'oneOf': [{u'$ref': u'#/definitions/success'},\n                {u'$ref': u'#/definitions/error'},\n                {u'items': {u'oneOf': [{u'$ref': u'#/definitions/success'},\n                                       {u'$ref': u'#/definitions/error'}]},\n                 u'type': u'array'}]}\n\nOn instance:\n    {}",
+              "response_schema": {
+                "definitions": {
+                  "response-obj": {
+                    "id": "#response-obj",
+                    "properties": {
+                      "result": {
+                        "type": "string",
+                        "description": "DATA: Signature."
+                      }
+                    }
+                  }
+                },
+                "id": "#response",
+                "allOf": [
+                  {
+                    "$ref": "jsonrpc-response.json"
+                  },
+                  {
+                    "$ref": "#/definitions/response-obj"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "eth_sign message 0xdeadbeef. response is not empty.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.result != null",
+            "details": {
+              "receivedResponse": {},
+              "assertion_program": ".receivedResponse.result != null",
+              "expectedResponse": {
+                "result": "0xec39733b153542268d8f057ebd853b6a0f2f2ebd5a22b7e34a0d6a4bac1d04ad7346e51c8b03b83973f4a492d04487cebfaaa20065b5ad2a4a826fa9bd72b56e1c"
+              },
+              "requestObject": {
+                "params": [
+                  "0x4898dd2725b0835bf972d9d6c8b65c59de7b3daf",
+                  "0xdeadbeef"
+                ],
+                "method": "eth_sign"
+              }
+            }
+          },
+          {
+            "name": "eth_sign message 0xdeadbeef. signed message should be length 132.",
+            "success": false,
+            "error": "assertion failed: .receivedResponse.result | length == 132",
+            "details": {
+              "receivedResponse": {},
+              "assertion_program": ".receivedResponse.result | length == 132",
+              "expectedResponse": {
+                "result": "0xec39733b153542268d8f057ebd853b6a0f2f2ebd5a22b7e34a0d6a4bac1d04ad7346e51c8b03b83973f4a492d04487cebfaaa20065b5ad2a4a826fa9bd72b56e1c"
+              },
+              "requestObject": {
+                "params": [
+                  "0x4898dd2725b0835bf972d9d6c8b65c59de7b3daf",
+                  "0xdeadbeef"
+                ],
+                "method": "eth_sign"
+              }
+            }
+          },
+          {
+            "name": "eth_sign with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_sign with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_sign with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_sign with one parameter. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByHash for block with one tx rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByHash for block with one tx. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByHash for block with one tx. response is not empty.",
+            "success": true
+          },
+          {
+            "name": "eth_getBlockTransactionCountByHash for block with one tx. transaction count should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex uncle at index 0 rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex uncle at index 0. rpc received response schema valid",
+            "success": false,
+            "error": "ERROR. couldn't validate rpc received response against schema.",
+            "details": {
+              "received_response": {
+                "jsonrpc": "2.0",
+                "result": {
+                  "transactionsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+                  "gasLimit": "0x2fefd8",
+                  "number": "0x2",
+                  "size": null,
+                  "author": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                  "mixHash": "0xe970d9815a634e25a778a765764d91ecc80d667a85721dcd4297d00be8d2af29",
+                  "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                  "miner": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+                  "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                  "nonce": "0x64050e6ee4c2f3c7",
+                  "hash": "0x9fbaff6f69e4f47a09fb30a14baadf2435bd1ad1f1940e7e985de0b3acff4e0a",
+                  "uncles": [],
+                  "transactions": [],
+                  "timestamp": "0x561bc2e7",
+                  "sealFields": [
+                    "0xa0e970d9815a634e25a778a765764d91ecc80d667a85721dcd4297d00be8d2af29",
+                    "0x8864050e6ee4c2f3c7"
+                  ],
+                  "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+                  "difficulty": "0x20040",
+                  "parentHash": "0x10aaf14a53caf27552325374429d3558398a36d3682ede6603c2c6511896e9f9",
+                  "extraData": "0x",
+                  "stateRoot": "0xee57559895449b8dbd0a096b2999cf97b517b645ec8db33c7f5934778672263e",
+                  "totalDifficulty": "0x60040",
+                  "gasUsed": "0x0"
+                },
+                "id": 1
+              },
+              "schemaException": "None is not of type u'string'\n\nFailed validating u'type' in schema[u'allOf'][1][u'properties'][u'result'][u'properties'][u'size']:\n    {u'description': u'QUANTITY - integer the size of this block in bytes.',\n     u'type': u'string'}\n\nOn instance[u'result'][u'size']:\n    None",
+              "response_schema": {
+                "definitions": {
+                  "response-obj": {
+                    "id": "#response-obj",
+                    "properties": {
+                      "result": {
+                        "type": "object",
+                        "properties": {
+                          "nonce": {
+                            "type": "string",
+                            "description": "DATA, 8 Bytes - hash of the generated proof-of-work. null when its pending block."
+                          },
+                          "receiptsRoot": {
+                            "type": "string",
+                            "description": "DATA, 32 Bytes - the root of the receipts trie of the block."
+                          },
+                          "hash": {
+                            "type": "string",
+                            "description": "DATA, 32 Bytes - hash of the block. null when its pending block."
+                          },
+                          "uncles": {
+                            "items": {},
+                            "type": "array",
+                            "description": "Array - Array of uncle hashes."
+                          },
+                          "timestamp": {
+                            "type": "string",
+                            "description": "QUANTITY - the unix timestamp for when the block was collated."
+                          },
+                          "sha3Uncles": {
+                            "type": "string",
+                            "description": "DATA, 32 Bytes - SHA3 of the uncles data in the block."
+                          },
+                          "miner": {
+                            "type": "string",
+                            "description": "DATA, 20 Bytes - the address of the beneficiary to whom the mining rewards were given."
+                          },
+                          "parentHash": {
+                            "type": "string",
+                            "description": "DATA, 32 Bytes - hash of the parent block."
+                          },
+                          "extraData": {
+                            "type": "string",
+                            "description": "DATA - the \"extra data\" field of this block."
+                          },
+                          "gasLimit": {
+                            "type": "string",
+                            "description": "QUANTITY - the maximum gas allowed in this block."
+                          },
+                          "number": {
+                            "type": "string",
+                            "description": "QUANTITY - the block number. null when its pending block."
+                          },
+                          "stateRoot": {
+                            "type": "string",
+                            "description": "DATA, 32 Bytes - the root of the final state trie of the block."
+                          },
+                          "difficulty": {
+                            "type": "string",
+                            "description": "QUANTITY - integer of the difficulty for this block."
+                          },
+                          "transactionsRoot": {
+                            "type": "string",
+                            "description": "DATA, 32 Bytes - the root of the transaction trie of the block."
+                          },
+                          "size": {
+                            "type": "string",
+                            "description": "QUANTITY - integer the size of this block in bytes."
+                          },
+                          "mixHash": {
+                            "type": "string"
+                          },
+                          "totalDifficulty": {
+                            "type": "null",
+                            "description": "Uncles don't have total difficulty."
+                          },
+                          "gasUsed": {
+                            "type": "string",
+                            "description": "QUANTITY - the total used gas by all transactions in this block."
+                          },
+                          "logsBloom": {
+                            "type": "string",
+                            "description": "DATA, 256 Bytes - the bloom filter for the logs of the block. null when its pending block."
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "id": "#response",
+                "allOf": [
+                  {
+                    "$ref": "jsonrpc-response.json"
+                  },
+                  {
+                    "$ref": "#/definitions/response-obj"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex uncle at index 0. response has hash.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex uncle at index 0. hashes should be equal.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with no parameters rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with no parameters. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with no parameters. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with no parameters. error code should be -32602.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with one parameter rpc request got response.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with one parameter. rpc received response schema valid",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with one parameter. response should be an error.",
+            "success": true
+          },
+          {
+            "name": "eth_getUncleByBlockHashAndIndex with one parameter. error code should be -32602.",
+            "success": true
+          }
+        ]
+      }
+    }
+  }
+}
