@@ -102,7 +102,7 @@
 */
 
 .clientNameContainer {
-  width: 4.8vw;
+  width: 4em;
   /*
   padding-left: 3px;
   padding-right: 3px;
@@ -115,8 +115,8 @@
 
 .clientNameContainer > div {
   /* width: 4.5vw; */
-  width: 4vw;
-  height: 1vh;
+  width: 4em;
+  height: 1em;
   /* border: 1px solid green; */
   display:inline-flex;
   align-items:center;
