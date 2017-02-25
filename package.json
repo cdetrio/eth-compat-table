@@ -4,18 +4,22 @@
   "private": true,
   "devDependencies": {
     "gh-pages": "^0.12.0",
-    "react-scripts": "0.8.5"
+    "react-scripts": "0.8.5",
+    "react-textfit": "https://github.com/vypah/react-textfit/tarball/master"
   },
   "dependencies": {
     "babel-preset-stage-2": "^6.22.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-sanfona": "0.1.0",
-    "rc-collapse": "1.6.12"
+    "rc-collapse": "1.6.12",
+    "react-textfit": "https://github.com/vypah/react-textfit/tarball/master"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build-css": "node-sass src/demo.scss src/demo.css",
+    "watch-css": "node-sass src/demo.scss src/demo.css -w",
+    "start": "npm run watch-css & react-scripts start",
+    "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -d build"
