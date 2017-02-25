@@ -18,7 +18,7 @@
   text-decoration: none !important;
   text-transform: none;
   text-transform: capitalize;
-  color: #fff;
+  /* color: #fff; */
   border: 0 none;
   border-radius: 4px;
   font-size: 14px;
@@ -86,8 +86,9 @@
 }
 
 .button.-salmon {
-  color: #FFFFFF;
-  background: #F32C52;
+  /* color: #FFFFFF; */
+  /* background: #F32C52; */
+  background: #FF0000;
 }
 
 .button.-sun {

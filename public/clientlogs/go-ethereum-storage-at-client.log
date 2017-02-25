@@ -1,0 +1,1182 @@
+Initializing database with genesis state...
+I0224 12:17:52.120065 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:17:52.120347 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:52.141728 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:52.141974 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:52.159222 cmd/geth/chaincmd.go:131] successfully wrote genesis block and/or chain rule set: f8f01382f5636d02edac7fff679a6feb7a572d37a395daaab77938feb6fe217f
+Loading initial blockchain...
+Loading remaining individual blocks...
+I0224 12:17:52.203085 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:17:52.203825 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:52.217434 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:52.217530 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:52.244171 core/blockchain.go:219] Last header: #0 [f8f01382…] TD=131072
+I0224 12:17:52.244222 core/blockchain.go:220] Last block: #0 [f8f01382…] TD=131072
+I0224 12:17:52.244236 core/blockchain.go:221] Fast block: #0 [f8f01382…] TD=131072
+I0224 12:17:52.244421 cmd/utils/cmd.go:132] Importing blockchain /blocks/0
+I0224 12:17:53.104301 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.493 Mg) in 859.185ms ( 0.574 Mg/s). #1 [10aaf14a…]
+Import done in 860.133167ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          1 |       0.00079 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  3
+Trie cache unloads: 0
+
+Object memory: 34.144 MB current, 33.953 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.018 million
+GC pause:      653.026µs
+
+Compacting entire database...
+Compaction done in 43.759682ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02249 |       0.00000 |       0.00412
+   1   |          1 |       0.00451 |       0.01680 |       0.00491 |       0.00451
+
+I0224 12:17:53.148742 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:53.187964 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:17:53.188095 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:53.192742 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:53.192868 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:53.220349 core/blockchain.go:219] Last header: #1 [10aaf14a…] TD=262144
+I0224 12:17:53.220389 core/blockchain.go:220] Last block: #1 [10aaf14a…] TD=262144
+I0224 12:17:53.220411 core/blockchain.go:221] Fast block: #1 [10aaf14a…] TD=262144
+I0224 12:17:53.220717 cmd/utils/cmd.go:132] Importing blockchain /blocks/1
+I0224 12:17:54.105135 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.021 Mg) in 884.149ms ( 0.024 Mg/s). #2 [0e29f455…]
+Import done in 884.90702ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.00451 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  6
+Trie cache unloads: 0
+
+Object memory: 34.179 MB current, 34.005 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.019 million
+GC pause:      2.09108ms
+
+Compacting entire database...
+Compaction done in 46.686294ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02598 |       0.00000 |       0.00165
+   1   |          1 |       0.00585 |       0.01660 |       0.00616 |       0.00585
+
+I0224 12:17:54.152545 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:54.189684 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:17:54.189799 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:54.194835 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:54.195198 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:54.225738 core/blockchain.go:219] Last header: #2 [0e29f455…] TD=393280
+I0224 12:17:54.225768 core/blockchain.go:220] Last block: #2 [0e29f455…] TD=393280
+I0224 12:17:54.225775 core/blockchain.go:221] Fast block: #2 [0e29f455…] TD=393280
+I0224 12:17:54.226036 cmd/utils/cmd.go:132] Importing blockchain /blocks/2
+I0224 12:17:55.123390 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.022 Mg) in 897.082ms ( 0.024 Mg/s). #3 [3d813a0f…]
+Import done in 897.737513ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.00585 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  6
+Trie cache unloads: 0
+
+Object memory: 34.197 MB current, 33.989 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.019 million
+GC pause:      4.734881ms
+
+Compacting entire database...
+Compaction done in 51.083364ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.03214 |       0.00000 |       0.00148
+   1   |          1 |       0.00688 |       0.01513 |       0.00732 |       0.00688
+
+I0224 12:17:55.175297 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:55.214838 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:17:55.215060 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:55.219677 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:55.219764 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:55.245639 core/blockchain.go:219] Last header: #3 [3d813a0f…] TD=524480
+I0224 12:17:55.245676 core/blockchain.go:220] Last block: #3 [3d813a0f…] TD=524480
+I0224 12:17:55.245696 core/blockchain.go:221] Fast block: #3 [3d813a0f…] TD=524480
+I0224 12:17:55.245822 cmd/utils/cmd.go:132] Importing blockchain /blocks/3
+I0224 12:17:56.104552 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.022 Mg) in 858.352ms ( 0.025 Mg/s). #4 [4e9a67b6…]
+Import done in 858.960122ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.00688 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  6
+Trie cache unloads: 0
+
+Object memory: 34.241 MB current, 33.988 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      685.828µs
+
+Compacting entire database...
+Compaction done in 41.491295ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02512 |       0.00000 |       0.00229
+   1   |          1 |       0.00860 |       0.01168 |       0.00918 |       0.00860
+
+I0224 12:17:56.146723 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:56.184050 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:17:56.184158 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:56.188633 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:56.188726 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:56.216205 core/blockchain.go:219] Last header: #4 [4e9a67b6…] TD=655744
+I0224 12:17:56.216224 core/blockchain.go:220] Last block: #4 [4e9a67b6…] TD=655744
+I0224 12:17:56.216242 core/blockchain.go:221] Fast block: #4 [4e9a67b6…] TD=655744
+I0224 12:17:56.216602 cmd/utils/cmd.go:132] Importing blockchain /blocks/4
+I0224 12:17:57.074564 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.022 Mg) in 857.626ms ( 0.026 Mg/s). #5 [609427cc…]
+Import done in 858.444902ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.00860 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  6
+Trie cache unloads: 0
+
+Object memory: 34.256 MB current, 34.009 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      624.724µs
+
+Compacting entire database...
+Compaction done in 52.337812ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02584 |       0.00000 |       0.00167
+   1   |          1 |       0.00975 |       0.01759 |       0.01027 |       0.00975
+
+I0224 12:17:57.127753 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:57.165225 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:17:57.165360 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:57.171020 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:57.171095 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:57.195983 core/blockchain.go:219] Last header: #5 [609427cc…] TD=787072
+I0224 12:17:57.196038 core/blockchain.go:220] Last block: #5 [609427cc…] TD=787072
+I0224 12:17:57.196057 core/blockchain.go:221] Fast block: #5 [609427cc…] TD=787072
+I0224 12:17:57.196290 cmd/utils/cmd.go:132] Importing blockchain /blocks/5
+I0224 12:17:58.043249 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.022 Mg) in 846.537ms ( 0.026 Mg/s). #6 [666c5e63…]
+Import done in 847.45648ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.00975 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  6
+Trie cache unloads: 0
+
+Object memory: 34.243 MB current, 33.998 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      1.03224ms
+
+Compacting entire database...
+Compaction done in 39.687826ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02422 |       0.00000 |       0.00173
+   1   |          1 |       0.01187 |       0.01154 |       0.01149 |       0.01187
+
+I0224 12:17:58.083623 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:58.122142 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:17:58.122280 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:58.127688 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:58.127784 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:58.154808 core/blockchain.go:219] Last header: #6 [666c5e63…] TD=918464
+I0224 12:17:58.154828 core/blockchain.go:220] Last block: #6 [666c5e63…] TD=918464
+I0224 12:17:58.154834 core/blockchain.go:221] Fast block: #6 [666c5e63…] TD=918464
+I0224 12:17:58.155076 cmd/utils/cmd.go:132] Importing blockchain /blocks/6
+I0224 12:17:59.031955 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.022 Mg) in 876.346ms ( 0.025 Mg/s). #7 [4997e4f3…]
+Import done in 877.256326ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.01187 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  6
+Trie cache unloads: 0
+
+Object memory: 34.250 MB current, 34.008 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      1.752069ms
+
+Compacting entire database...
+Compaction done in 51.006861ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02503 |       0.00000 |       0.00167
+   1   |          1 |       0.01330 |       0.02220 |       0.01354 |       0.01330
+
+I0224 12:17:59.083818 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:59.122709 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:17:59.122964 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:59.128837 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:17:59.129059 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:17:59.156638 core/blockchain.go:219] Last header: #7 [4997e4f3…] TD=1049920
+I0224 12:17:59.156659 core/blockchain.go:220] Last block: #7 [4997e4f3…] TD=1049920
+I0224 12:17:59.156665 core/blockchain.go:221] Fast block: #7 [4997e4f3…] TD=1049920
+I0224 12:17:59.156943 cmd/utils/cmd.go:132] Importing blockchain /blocks/7
+I0224 12:18:00.024923 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.022 Mg) in 867.591ms ( 0.025 Mg/s). #8 [45f61118…]
+Import done in 868.211478ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.01330 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  6
+Trie cache unloads: 0
+
+Object memory: 34.261 MB current, 34.013 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      906.734µs
+
+Compacting entire database...
+Compaction done in 39.645124ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02307 |       0.00000 |       0.00174
+   1   |          1 |       0.01430 |       0.01228 |       0.01503 |       0.01430
+
+I0224 12:18:00.065129 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:00.102681 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:00.102853 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:00.107412 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:00.107496 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:00.133602 core/blockchain.go:219] Last header: #8 [45f61118…] TD=1181440
+I0224 12:18:00.133625 core/blockchain.go:220] Last block: #8 [45f61118…] TD=1181440
+I0224 12:18:00.133679 core/blockchain.go:221] Fast block: #8 [45f61118…] TD=1181440
+I0224 12:18:00.134233 cmd/utils/cmd.go:132] Importing blockchain /blocks/8
+I0224 12:18:00.999817 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.042 Mg) in 865.291ms ( 0.048 Mg/s). #9 [0362d0ee…]
+Import done in 865.878089ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.01430 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  6
+Trie cache unloads: 0
+
+Object memory: 34.253 MB current, 33.998 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      985.336µs
+
+Compacting entire database...
+Compaction done in 43.796283ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02422 |       0.00000 |       0.00194
+   1   |          1 |       0.01621 |       0.01548 |       0.01625 |       0.01621
+
+I0224 12:18:01.044214 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:01.089300 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:01.089476 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:01.094257 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:01.094309 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:01.122685 core/blockchain.go:219] Last header: #9 [0362d0ee…] TD=1313024
+I0224 12:18:01.122806 core/blockchain.go:220] Last block: #9 [0362d0ee…] TD=1313024
+I0224 12:18:01.122843 core/blockchain.go:221] Fast block: #9 [0362d0ee…] TD=1313024
+I0224 12:18:01.123176 cmd/utils/cmd.go:132] Importing blockchain /blocks/9
+I0224 12:18:01.986355 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.027 Mg) in 862.885ms ( 0.031 Mg/s). #10 [c37f28ec…]
+Import done in 863.708005ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.01621 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 1
+
+Object memory: 34.265 MB current, 34.005 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      810.431µs
+
+Compacting entire database...
+Compaction done in 37.145528ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02241 |       0.00000 |       0.00180
+   1   |          1 |       0.01674 |       0.01092 |       0.01801 |       0.01674
+
+I0224 12:18:02.024377 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:02.063784 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:02.063978 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:02.069504 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:02.069602 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:02.097696 core/blockchain.go:219] Last header: #10 [c37f28ec…] TD=1444672
+I0224 12:18:02.097719 core/blockchain.go:220] Last block: #10 [c37f28ec…] TD=1444672
+I0224 12:18:02.097726 core/blockchain.go:221] Fast block: #10 [c37f28ec…] TD=1444672
+I0224 12:18:02.098210 cmd/utils/cmd.go:132] Importing blockchain /blocks/10
+I0224 12:18:02.989885 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.029 Mg) in 891.298ms ( 0.032 Mg/s). #11 [595973e2…]
+Import done in 892.035794ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.01674 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 0
+
+Object memory: 34.278 MB current, 34.002 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      897.433µs
+
+Compacting entire database...
+Compaction done in 56.036355ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02514 |       0.00000 |       0.00190
+   1   |          1 |       0.01845 |       0.02675 |       0.01864 |       0.01845
+
+I0224 12:18:03.047549 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:03.086477 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:03.086638 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:03.093179 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:03.093275 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:03.119312 core/blockchain.go:219] Last header: #11 [595973e2…] TD=1576384
+I0224 12:18:03.119454 core/blockchain.go:220] Last block: #11 [595973e2…] TD=1576384
+I0224 12:18:03.119576 core/blockchain.go:221] Fast block: #11 [595973e2…] TD=1576384
+I0224 12:18:03.119751 cmd/utils/cmd.go:132] Importing blockchain /blocks/11
+I0224 12:18:04.022803 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.027 Mg) in 902.597ms ( 0.030 Mg/s). #12 [2c18d097…]
+Import done in 903.249125ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.01845 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 0
+
+Object memory: 34.262 MB current, 34.009 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      1.718267ms
+
+Compacting entire database...
+Compaction done in 45.164437ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02500 |       0.00000 |       0.00180
+   1   |          1 |       0.01957 |       0.01534 |       0.02025 |       0.01957
+
+I0224 12:18:04.068624 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:04.106511 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:04.106778 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:04.112675 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:04.112815 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:04.139466 core/blockchain.go:219] Last header: #12 [2c18d097…] TD=1708160
+I0224 12:18:04.139489 core/blockchain.go:220] Last block: #12 [2c18d097…] TD=1708160
+I0224 12:18:04.139495 core/blockchain.go:221] Fast block: #12 [2c18d097…] TD=1708160
+I0224 12:18:04.139737 cmd/utils/cmd.go:132] Importing blockchain /blocks/12
+I0224 12:18:05.097979 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.044 Mg) in 957.820ms ( 0.046 Mg/s). #13 [c3b22a28…]
+Import done in 958.561151ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.01957 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 0
+
+Object memory: 34.281 MB current, 34.013 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      2.088779ms
+
+Compacting entire database...
+Compaction done in 39.734128ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02393 |       0.00000 |       0.00195
+   1   |          1 |       0.02105 |       0.01191 |       0.02152 |       0.02105
+
+I0224 12:18:05.138773 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:05.176726 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:05.176983 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:05.186863 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:05.186980 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:05.201647 core/blockchain.go:219] Last header: #13 [c3b22a28…] TD=1840000
+I0224 12:18:05.201671 core/blockchain.go:220] Last block: #13 [c3b22a28…] TD=1840000
+I0224 12:18:05.201678 core/blockchain.go:221] Fast block: #13 [c3b22a28…] TD=1840000
+I0224 12:18:05.201962 cmd/utils/cmd.go:132] Importing blockchain /blocks/13
+I0224 12:18:06.090552 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.044 Mg) in 888.288ms ( 0.049 Mg/s). #14 [dc0db819…]
+Import done in 888.972076ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.02105 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 0
+
+Object memory: 34.286 MB current, 34.004 MB peak
+System memory: 106.631 MB current, 106.631 MB peak
+Allocations:   0.020 million
+GC pause:      4.569977ms
+
+Compacting entire database...
+Compaction done in 53.695464ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02709 |       0.00000 |       0.00214
+   1   |          1 |       0.02280 |       0.01311 |       0.02320 |       0.02280
+
+I0224 12:18:06.144749 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:06.181083 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:06.181239 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:06.186814 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:06.186888 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:06.212389 core/blockchain.go:219] Last header: #14 [dc0db819…] TD=1971904
+I0224 12:18:06.212452 core/blockchain.go:220] Last block: #14 [dc0db819…] TD=1971904
+I0224 12:18:06.212478 core/blockchain.go:221] Fast block: #14 [dc0db819…] TD=1971904
+I0224 12:18:06.212598 cmd/utils/cmd.go:132] Importing blockchain /blocks/14
+I0224 12:18:07.078700 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.044 Mg) in 865.816ms ( 0.051 Mg/s). #15 [9dcd5e20…]
+Import done in 866.930629ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.02280 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 0
+
+Object memory: 34.289 MB current, 34.011 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      1.05344ms
+
+Compacting entire database...
+Compaction done in 47.760536ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02555 |       0.00000 |       0.00215
+   1   |          1 |       0.02436 |       0.01284 |       0.02495 |       0.02436
+
+I0224 12:18:07.127687 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:07.166011 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:07.166198 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:07.170932 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:07.171003 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:07.197925 core/blockchain.go:219] Last header: #15 [9dcd5e20…] TD=2103872
+I0224 12:18:07.198023 core/blockchain.go:220] Last block: #15 [9dcd5e20…] TD=2103872
+I0224 12:18:07.198046 core/blockchain.go:221] Fast block: #15 [9dcd5e20…] TD=2103872
+I0224 12:18:07.198249 cmd/utils/cmd.go:132] Importing blockchain /blocks/15
+I0224 12:18:08.046640 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.044 Mg) in 848.058ms ( 0.052 Mg/s). #16 [1878c6f2…]
+Import done in 848.714128ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.02436 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 0
+
+Object memory: 34.298 MB current, 34.019 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      827.033µs
+
+Compacting entire database...
+Compaction done in 42.14012ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.01943 |       0.00000 |       0.00202
+   1   |          1 |       0.02586 |       0.01403 |       0.02638 |       0.02586
+
+I0224 12:18:08.089323 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:08.127778 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:08.127899 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:08.134222 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:08.134284 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:08.161434 core/blockchain.go:219] Last header: #16 [1878c6f2…] TD=2235904
+I0224 12:18:08.161472 core/blockchain.go:220] Last block: #16 [1878c6f2…] TD=2235904
+I0224 12:18:08.161501 core/blockchain.go:221] Fast block: #16 [1878c6f2…] TD=2235904
+I0224 12:18:08.161717 cmd/utils/cmd.go:132] Importing blockchain /blocks/16
+I0224 12:18:09.036650 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.022 Mg) in 874.390ms ( 0.025 Mg/s). #17 [fa2ccd3c…]
+Import done in 875.428855ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.02586 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  8
+Trie cache unloads: 1
+
+Object memory: 34.287 MB current, 34.018 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      2.078981ms
+
+Compacting entire database...
+Compaction done in 41.517796ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02382 |       0.00000 |       0.00170
+   1   |          1 |       0.02717 |       0.01328 |       0.02756 |       0.02717
+
+I0224 12:18:09.079193 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:09.116426 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:09.116570 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:09.122750 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:09.122837 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:09.148451 core/blockchain.go:219] Last header: #17 [fa2ccd3c…] TD=2368000
+I0224 12:18:09.148482 core/blockchain.go:220] Last block: #17 [fa2ccd3c…] TD=2368000
+I0224 12:18:09.148488 core/blockchain.go:221] Fast block: #17 [fa2ccd3c…] TD=2368000
+I0224 12:18:09.148827 cmd/utils/cmd.go:132] Importing blockchain /blocks/17
+I0224 12:18:10.045260 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.022 Mg) in 895.815ms ( 0.024 Mg/s). #18 [16dd36d0…]
+Import done in 896.747675ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.02717 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  8
+Trie cache unloads: 1
+
+Object memory: 34.287 MB current, 34.019 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      721.929µs
+
+Compacting entire database...
+Compaction done in 43.217161ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02318 |       0.00000 |       0.00168
+   1   |          1 |       0.02830 |       0.01588 |       0.02885 |       0.02830
+
+I0224 12:18:10.089076 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:10.125484 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:10.125742 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:10.132186 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:10.132284 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:10.159993 core/blockchain.go:219] Last header: #18 [16dd36d0…] TD=2500160
+I0224 12:18:10.160011 core/blockchain.go:220] Last block: #18 [16dd36d0…] TD=2500160
+I0224 12:18:10.160017 core/blockchain.go:221] Fast block: #18 [16dd36d0…] TD=2500160
+I0224 12:18:10.160196 cmd/utils/cmd.go:132] Importing blockchain /blocks/18
+I0224 12:18:11.017292 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.022 Mg) in 856.729ms ( 0.026 Mg/s). #19 [432cb1a2…]
+Import done in 857.428464ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.02830 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  8
+Trie cache unloads: 1
+
+Object memory: 34.305 MB current, 34.025 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      3.295826ms
+
+Compacting entire database...
+Compaction done in 85.274078ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.06698 |       0.00000 |       0.00170
+   1   |          1 |       0.02930 |       0.01271 |       0.03000 |       0.02930
+
+I0224 12:18:11.103201 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:11.140746 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:11.140880 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:11.145616 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:11.145672 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:11.173412 core/blockchain.go:219] Last header: #19 [432cb1a2…] TD=2632384
+I0224 12:18:11.173462 core/blockchain.go:220] Last block: #19 [432cb1a2…] TD=2632384
+I0224 12:18:11.173477 core/blockchain.go:221] Fast block: #19 [432cb1a2…] TD=2632384
+I0224 12:18:11.173800 cmd/utils/cmd.go:132] Importing blockchain /blocks/19
+I0224 12:18:12.023819 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.022 Mg) in 849.669ms ( 0.025 Mg/s). #20 [66408812…]
+Import done in 850.532599ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.02930 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  8
+Trie cache unloads: 1
+
+Object memory: 34.277 MB current, 34.015 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      632.626µs
+
+Compacting entire database...
+Compaction done in 39.680325ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02391 |       0.00000 |       0.00167
+   1   |          1 |       0.03065 |       0.01179 |       0.03098 |       0.03065
+
+I0224 12:18:12.064217 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:12.102838 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:12.103082 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:12.107946 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:12.108035 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:12.135931 core/blockchain.go:219] Last header: #20 [66408812…] TD=2764672
+I0224 12:18:12.135955 core/blockchain.go:220] Last block: #20 [66408812…] TD=2764672
+I0224 12:18:12.135964 core/blockchain.go:221] Fast block: #20 [66408812…] TD=2764672
+I0224 12:18:12.139011 cmd/utils/cmd.go:132] Importing blockchain /blocks/20
+I0224 12:18:13.019652 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.022 Mg) in 880.187ms ( 0.025 Mg/s). #21 [bfbcc1d0…]
+Import done in 883.722774ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.03065 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  8
+Trie cache unloads: 1
+
+Object memory: 34.282 MB current, 34.016 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      3.534437ms
+
+Compacting entire database...
+Compaction done in 39.097503ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02194 |       0.00000 |       0.00167
+   1   |          1 |       0.03168 |       0.01268 |       0.03232 |       0.03168
+
+I0224 12:18:13.059379 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:13.097016 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:13.097164 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:13.102863 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:13.102999 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:13.129816 core/blockchain.go:219] Last header: #21 [bfbcc1d0…] TD=2897024
+I0224 12:18:13.129836 core/blockchain.go:220] Last block: #21 [bfbcc1d0…] TD=2897024
+I0224 12:18:13.129843 core/blockchain.go:221] Fast block: #21 [bfbcc1d0…] TD=2897024
+I0224 12:18:13.130048 cmd/utils/cmd.go:132] Importing blockchain /blocks/21
+I0224 12:18:13.991611 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.022 Mg) in 861.135ms ( 0.025 Mg/s). #22 [a2a75c6b…]
+Import done in 861.947437ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.03168 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  8
+Trie cache unloads: 1
+
+Object memory: 34.271 MB current, 34.008 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      713.726µs
+
+Compacting entire database...
+Compaction done in 45.25494ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02448 |       0.00000 |       0.00170
+   1   |          1 |       0.03340 |       0.01658 |       0.03337 |       0.03340
+
+I0224 12:18:14.037620 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:14.076563 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:14.076779 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:14.082452 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:14.082604 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:14.110621 core/blockchain.go:219] Last header: #22 [a2a75c6b…] TD=3029440
+I0224 12:18:14.110706 core/blockchain.go:220] Last block: #22 [a2a75c6b…] TD=3029440
+I0224 12:18:14.110766 core/blockchain.go:221] Fast block: #22 [a2a75c6b…] TD=3029440
+I0224 12:18:14.111116 cmd/utils/cmd.go:132] Importing blockchain /blocks/22
+I0224 12:18:14.966822 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.023 Mg) in 855.379ms ( 0.026 Mg/s). #23 [3c419f39…]
+Import done in 856.104213ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.03340 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 1
+
+Object memory: 34.298 MB current, 34.011 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      1.588061ms
+
+Compacting entire database...
+Compaction done in 50.966059ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02465 |       0.00000 |       0.00201
+   1   |          1 |       0.03471 |       0.02214 |       0.03541 |       0.03471
+
+I0224 12:18:15.018560 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:15.056308 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:15.056681 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:15.062730 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:15.062894 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:15.077625 core/blockchain.go:219] Last header: #23 [3c419f39…] TD=3161920
+I0224 12:18:15.077667 core/blockchain.go:220] Last block: #23 [3c419f39…] TD=3161920
+I0224 12:18:15.077683 core/blockchain.go:221] Fast block: #23 [3c419f39…] TD=3161920
+I0224 12:18:15.077822 cmd/utils/cmd.go:132] Importing blockchain /blocks/23
+I0224 12:18:15.929856 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.022 Mg) in 851.778ms ( 0.026 Mg/s). #24 [1b0e205a…]
+Import done in 852.201362ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.03471 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 1
+
+Object memory: 66.338 MB current, 66.059 MB peak
+System memory: 106.631 MB current, 106.631 MB peak
+Allocations:   0.020 million
+GC pause:      690.227µs
+
+Compacting entire database...
+Compaction done in 54.275587ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.01777 |       0.00000 |       0.00185
+   1   |          1 |       0.03653 |       0.02502 |       0.03656 |       0.03653
+
+I0224 12:18:15.984831 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:16.021837 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:16.021961 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:16.026761 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:16.026849 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:16.051932 core/blockchain.go:219] Last header: #24 [1b0e205a…] TD=3294464
+I0224 12:18:16.051952 core/blockchain.go:220] Last block: #24 [1b0e205a…] TD=3294464
+I0224 12:18:16.051959 core/blockchain.go:221] Fast block: #24 [1b0e205a…] TD=3294464
+I0224 12:18:16.052161 cmd/utils/cmd.go:132] Importing blockchain /blocks/24
+I0224 12:18:16.922235 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.023 Mg) in 869.655ms ( 0.027 Mg/s). #25 [b73cee02…]
+Import done in 870.58977ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.03653 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 1
+
+Object memory: 34.329 MB current, 34.022 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      778.134µs
+
+Compacting entire database...
+Compaction done in 44.377506ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02742 |       0.00000 |       0.00188
+   1   |          1 |       0.03751 |       0.01276 |       0.03841 |       0.03751
+
+I0224 12:18:16.967525 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:17.008752 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:17.009044 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:17.015279 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:17.015405 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:17.042465 core/blockchain.go:219] Last header: #25 [b73cee02…] TD=3427072
+I0224 12:18:17.042634 core/blockchain.go:220] Last block: #25 [b73cee02…] TD=3427072
+I0224 12:18:17.042729 core/blockchain.go:221] Fast block: #25 [b73cee02…] TD=3427072
+I0224 12:18:17.042957 cmd/utils/cmd.go:132] Importing blockchain /blocks/25
+I0224 12:18:17.938470 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.023 Mg) in 894.984ms ( 0.025 Mg/s). #26 [cf6322ea…]
+Import done in 895.876942ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.03751 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 1
+
+Object memory: 34.316 MB current, 34.024 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      1.120644ms
+
+Compacting entire database...
+Compaction done in 42.610038ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02615 |       0.00000 |       0.00188
+   1   |          1 |       0.03898 |       0.01208 |       0.03939 |       0.03898
+
+I0224 12:18:17.981746 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:18.021946 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:18.022048 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:18.027888 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:18.028054 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:18.053614 core/blockchain.go:219] Last header: #26 [cf6322ea…] TD=3559744
+I0224 12:18:18.053667 core/blockchain.go:220] Last block: #26 [cf6322ea…] TD=3559744
+I0224 12:18:18.053685 core/blockchain.go:221] Fast block: #26 [cf6322ea…] TD=3559744
+I0224 12:18:18.053892 cmd/utils/cmd.go:132] Importing blockchain /blocks/26
+I0224 12:18:18.954393 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.023 Mg) in 900.072ms ( 0.025 Mg/s). #27 [8807dc8e…]
+Import done in 900.940236ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.03898 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 1
+
+Object memory: 34.295 MB current, 34.011 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      9.282058ms
+
+Compacting entire database...
+Compaction done in 30.472071ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.01488 |       0.00000 |       0.00178
+   1   |          1 |       0.03996 |       0.01164 |       0.04076 |       0.03996
+
+I0224 12:18:18.985725 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:19.024052 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:19.024173 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:19.029968 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:19.030028 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:19.055810 core/blockchain.go:219] Last header: #27 [8807dc8e…] TD=3692480
+I0224 12:18:19.055867 core/blockchain.go:220] Last block: #27 [8807dc8e…] TD=3692480
+I0224 12:18:19.055882 core/blockchain.go:221] Fast block: #27 [8807dc8e…] TD=3692480
+I0224 12:18:19.056029 cmd/utils/cmd.go:132] Importing blockchain /blocks/27
+I0224 12:18:19.933011 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.023 Mg) in 876.584ms ( 0.026 Mg/s). #28 [0586b6ab…]
+Import done in 877.315729ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.03996 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 1
+
+Object memory: 34.304 MB current, 34.019 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      1.023439ms
+
+Compacting entire database...
+Compaction done in 58.756958ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02921 |       0.00000 |       0.00198
+   1   |          1 |       0.04206 |       0.02547 |       0.04194 |       0.04206
+
+I0224 12:18:19.992767 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:20.029720 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:20.029953 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:20.036607 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:20.036702 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:20.061941 core/blockchain.go:219] Last header: #28 [0586b6ab…] TD=3825280
+I0224 12:18:20.061962 core/blockchain.go:220] Last block: #28 [0586b6ab…] TD=3825280
+I0224 12:18:20.061969 core/blockchain.go:221] Fast block: #28 [0586b6ab…] TD=3825280
+I0224 12:18:20.062251 cmd/utils/cmd.go:132] Importing blockchain /blocks/28
+I0224 12:18:20.948728 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.023 Mg) in 886.072ms ( 0.026 Mg/s). #27 [7d5e45fa…]
+Import done in 886.785792ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.04206 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 1
+
+Object memory: 34.289 MB current, 34.015 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      681.425µs
+
+Compacting entire database...
+Compaction done in 46.685594ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02941 |       0.00000 |       0.00144
+   1   |          1 |       0.04310 |       0.01298 |       0.04351 |       0.04310
+
+I0224 12:18:20.996164 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:21.033670 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:21.033799 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:21.038703 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:21.038764 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:21.066677 core/blockchain.go:219] Last header: #28 [0586b6ab…] TD=3825280
+I0224 12:18:21.066722 core/blockchain.go:220] Last block: #28 [0586b6ab…] TD=3825280
+I0224 12:18:21.066739 core/blockchain.go:221] Fast block: #28 [0586b6ab…] TD=3825280
+I0224 12:18:21.066975 cmd/utils/cmd.go:132] Importing blockchain /blocks/29
+I0224 12:18:21.932093 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.023 Mg) in 864.796ms ( 0.027 Mg/s). #28 [3af4d65d…]
+Import done in 865.463173ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.04310 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 1
+
+Object memory: 34.299 MB current, 34.015 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      1.215445ms
+
+Compacting entire database...
+Compaction done in 48.694373ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02534 |       0.00000 |       0.00141
+   1   |          1 |       0.04381 |       0.01877 |       0.04451 |       0.04381
+
+I0224 12:18:21.981451 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:22.021657 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:22.021783 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:22.032408 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:22.032540 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:22.059041 core/blockchain.go:219] Last header: #28 [0586b6ab…] TD=3825280
+I0224 12:18:22.059064 core/blockchain.go:220] Last block: #28 [0586b6ab…] TD=3825280
+I0224 12:18:22.059082 core/blockchain.go:221] Fast block: #28 [0586b6ab…] TD=3825280
+I0224 12:18:22.059407 cmd/utils/cmd.go:132] Importing blockchain /blocks/30
+I0224 12:18:22.914255 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.024 Mg) in 854.497ms ( 0.028 Mg/s). #29 [f8cfa377…]
+Import done in 855.167076ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.04381 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 1
+
+Object memory: 34.486 MB current, 34.015 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.022 million
+GC pause:      1.028842ms
+
+Compacting entire database...
+Compaction done in 59.06907ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.03026 |       0.00000 |       0.00374
+   1   |          1 |       0.04533 |       0.01952 |       0.04755 |       0.04533
+
+I0224 12:18:22.973995 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:23.012585 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:23.012772 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:23.017469 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:23.017560 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:23.045242 core/blockchain.go:219] Last header: #27 [7d5e45fa…] TD=3692480
+I0224 12:18:23.045287 core/blockchain.go:220] Last block: #29 [f8cfa377…] TD=3958144
+I0224 12:18:23.045309 core/blockchain.go:221] Fast block: #27 [7d5e45fa…] TD=3692480
+I0224 12:18:23.045406 cmd/utils/cmd.go:132] Importing blockchain /blocks/31
+I0224 12:18:23.909797 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.024 Mg) in 863.993ms ( 0.027 Mg/s). #30 [c8df1f06…]
+Import done in 864.62494ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.04533 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 1
+
+Object memory: 34.332 MB current, 34.024 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.021 million
+GC pause:      873.732µs
+
+Compacting entire database...
+Compaction done in 52.064002ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02830 |       0.00000 |       0.00211
+   1   |          1 |       0.04715 |       0.01949 |       0.04744 |       0.04715
+
+I0224 12:18:23.962485 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:24.002871 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:24.003079 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:24.008239 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:24.008365 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:24.034633 core/blockchain.go:219] Last header: #30 [c8df1f06…] TD=4091072
+I0224 12:18:24.034653 core/blockchain.go:220] Last block: #30 [c8df1f06…] TD=4091072
+I0224 12:18:24.034659 core/blockchain.go:221] Fast block: #30 [c8df1f06…] TD=4091072
+I0224 12:18:24.034905 cmd/utils/cmd.go:132] Importing blockchain /blocks/32
+I0224 12:18:24.916395 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.024 Mg) in 881.173ms ( 0.028 Mg/s). #31 [0f765087…]
+Import done in 881.903005ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.04715 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 1
+
+Object memory: 34.345 MB current, 34.010 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.021 million
+GC pause:      791.23µs
+
+Compacting entire database...
+Compaction done in 41.895611ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02520 |       0.00000 |       0.00204
+   1   |          1 |       0.04832 |       0.01266 |       0.04918 |       0.04832
+
+I0224 12:18:24.958898 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:24.996030 cmd/utils/flags.go:615] WARNING: No etherbase set and no accounts found as default
+I0224 12:18:24.996182 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:25.001744 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:25.001819 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:25.030814 core/blockchain.go:219] Last header: #31 [0f765087…] TD=4224064
+I0224 12:18:25.030835 core/blockchain.go:220] Last block: #31 [0f765087…] TD=4224064
+I0224 12:18:25.030840 core/blockchain.go:221] Fast block: #31 [0f765087…] TD=4224064
+I0224 12:18:25.031064 cmd/utils/cmd.go:132] Importing blockchain /blocks/33
+I0224 12:18:25.873920 core/blockchain.go:1073] imported 1 blocks,     1 txs (  0.024 Mg) in 842.495ms ( 0.028 Mg/s). #32 [71d59849…]
+Import done in 843.260019ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   1   |          1 |       0.04832 |       0.00000 |       0.00000 |       0.00000
+
+Trie cache misses:  7
+Trie cache unloads: 1
+
+Object memory: 34.327 MB current, 34.012 MB peak
+System memory: 73.600 MB current, 73.600 MB peak
+Allocations:   0.020 million
+GC pause:      571.221µs
+
+Compacting entire database...
+Compaction done in 43.279563ms.
+
+Compactions
+ Level |   Tables   |    Size(MB)   |    Time(sec)  |    Read(MB)   |   Write(MB)
+-------+------------+---------------+---------------+---------------+---------------
+   0   |          0 |       0.00000 |       0.02554 |       0.00000 |       0.00201
+   1   |          1 |       0.04978 |       0.01338 |       0.05033 |       0.04978
+
+I0224 12:18:25.917984 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+Running go-ethereum...
+I0224 12:18:25.958224 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:25.964605 ethdb/database.go:176] closed db:/root/.ethereum/geth/chaindata
+I0224 12:18:25.965018 node/node.go:176] instance: Geth/v1.5.6-unstable-cff315d9/linux/go1.7.3
+I0224 12:18:25.965066 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to /root/.ethereum/geth/chaindata
+I0224 12:18:25.991406 eth/db_upgrade.go:53] Upgrading chain database to use sequential keys
+I0224 12:18:25.991627 eth/db_upgrade.go:346] upgrading db log bloom bins
+I0224 12:18:25.991682 eth/db_upgrade.go:76] Database conversion successful
+I0224 12:18:25.993887 eth/db_upgrade.go:354] upgrade completed in 2.259487ms
+I0224 12:18:25.993954 eth/backend.go:191] Protocol Versions: [63 62], Network Id: 1
+I0224 12:18:25.994185 eth/backend.go:219] Chain config: {ChainID: 0 Homestead: 1150000 DAO: <nil> DAOSupport: false EIP150: 20000 EIP155: 20000 EIP158: 20000}
+I0224 12:18:25.994807 core/blockchain.go:219] Last header: #32 [71d59849…] TD=4357120
+I0224 12:18:25.994826 core/blockchain.go:220] Last block: #32 [71d59849…] TD=4357120
+I0224 12:18:25.994863 core/blockchain.go:221] Fast block: #32 [71d59849…] TD=4357120
+I0224 12:18:25.996103 p2p/server.go:342] Starting Server
+I0224 12:18:25.996253 p2p/server.go:610] Listening on [::]:30303
+I0224 12:18:25.998004 node/node.go:411] HTTP endpoint opened: http://0.0.0.0:8545
+I0224 12:18:25.998170 node/node.go:341] IPC endpoint opened: /root/.ethereum/geth.ipc

@@ -55,6 +55,10 @@
   background-color: transparent;
 }
 
+.testCell.fail {
+  font-weight: bold;
+}
+
 
 
 .header {
@@ -67,18 +71,85 @@
   /* margin-left: 5px; */
   border-left: 3px solid white;
   border-right: 3px solid white;
-  width: 4em;
+  /*
+  width: 4.2vw;
+  height: 3vw;
+  */
+  /* width: 4em; */
+  /* height: 50px; */
+  /*
+  width: 4vw;
+  height: 3vw;
+  */
   display:inline-flex;
   align-items:center;
   text-align:center;
   background-color: lightGray;
   position: relative;
+  /* border: 1px solid pink; */
   /* font-size:0.5em; */
-  word-break:break-all;
+  /* font-weight: bold; */
+  /* word-break:break-all; */
+}
+
+/*
+.clientNameContainer {
+  position: absolute;
+  width: 3.2vw;
+  height: 30px;
+  border: 1px solid purple;
+}
+*/
+
+.clientNameContainer {
+  width: 4.8vw;
+  /*
+  padding-left: 3px;
+  padding-right: 3px;
+  */
+}
+
+.clientBranch {
+  font-size: 0.7em;
+}
+
+.clientNameContainer > div {
+  /* width: 4.5vw; */
+  width: 4vw;
+  height: 1vh;
+  /* border: 1px solid green; */
+  display:inline-flex;
+  align-items:center;
+  justify-content: center;
+  line-height: 0.95em;
 }
 
 .header.columnHeader .clientColSpan {
-  font-size:0.8em;
+  /* font-size: 0.8em; */
+  /* font-weight: bold; */
+  /* width: 50px; */
+  /* width: 3.5em; */
+  /* width: 3vw; */
+  /* height: 3.5em; */
+
+  /*
+  height: 50px;
+  width: 50px;
+  */
+  /* border: 1px solid yellow; */
+  padding: 5px;
+  /* word-break: break-all; */
+  width: 4.25em;
+  font-size: 0.8em;
+  /* width: 95%; */
+  /* width: 50px; */
+  /* height: 95%; */
+  /* height: 50px; */
+  /*
+  height: 4em;
+  width: 4em;
+  */
+  /* font-size: calc(2vw + 2vh + 1vmin); */
 }
 
 .titleHeader {
@@ -125,11 +196,11 @@
   margin-top: 2px;
   margin-bottom: 2px;
   display: inline-block;
-  width: 42em;
+  width: 50em;
 }
 
 .accordionContainer > .rc-collapse {
-  width: 42em;
+  width: 50em;
 }
 
 
