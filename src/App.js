@@ -64,20 +64,20 @@ function processRpcTestData(rpc_test_data) {
 
   _.forEach(rpc_test_data.simulations, (val, key) => {
     // val['ethereum/rpeecee'] has keys: start, end, success, subresults
-    console.log(key, "val['ethereum/rpeecee']:", val['ethereum/rpeecee']);
+    console.log(key, "val['ethereum/rpc-compat']:", val['ethereum/rpc-compat']);
 
     const client_index = CLIENT_NAMES.indexOf(key);
 
     let meta_info = {
-      'start': val['ethereum/rpeecee'].start,
-      'end': val['ethereum/rpeecee'].end
+      'start': val['ethereum/rpc-compat'].start,
+      'end': val['ethereum/rpc-compat'].end
     };
     CLIENT_METAINFO[client_index] = meta_info;
 
     // TODO: should check if the subresults have the same length
     // to ensure all clients have a result for all test cases
 
-    client_testresults[client_index] = val['ethereum/rpeecee'].subresults;
+    client_testresults[client_index] = val['ethereum/rpc-compat'].subresults;
   });
 
 
